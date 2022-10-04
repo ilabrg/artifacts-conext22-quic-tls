@@ -17,9 +17,9 @@ We include all data and analysis scripts required to reproduce our results. Addi
 
 This repository is structured as follows:
 
-1. `code/`: Contains Jupyter notebooks to reproduce our results.
-2. `data/`: Contains data required by the Jupyter notebooks.
-3. `misc/`: Contains additional information on how we performed our scans.
+1. `code/`: Contains Jupyter notebook [code](https://github.com/ilabrg/artifacts-conext22-quic-tls/tree/main/code) to reproduce our results.
+2. `data/`: Contains [data](https://github.com/ilabrg/artifacts-conext22-quic-tls/tree/main/data) required by the Jupyter notebooks.
+3. `misc/`: Contains additional information on how we performed our [scans](https://github.com/ilabrg/artifacts-conext22-quic-tls/tree/main/misc).
 
 
 

@@ -5,7 +5,7 @@ These files will be loaded, parsed, sanitized, potentially merged and finally du
 
 
 1. `https_parsed_certs_chunk_*.csv.zst` CSV chunks with TLS information from TCP/HTTPS scans.
-2. `quicreach_handshakes_chunk_0.csv.zst` CSV chunks with QUIC handshake information for all QUIC services.
+2. `quicreach_handshakes_chunk_*.csv.zst` CSV chunks with QUIC handshake information for all QUIC services.
 3. `qscanner_tls_cert_hashes.csv.zst` CSV containing TLS information received over QUIC.
 4. `quiche_tls_compression.csv.zst` CSV containing information about supported compression algorithms over QUIC.
 5. `backscatter_cdf_ampl_factor_hypergiants.csv.zst` CSV containing CDF data for backscatter traffic. More precise data not released due to NDAs.
