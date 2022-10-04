@@ -11,6 +11,12 @@ matplotlib
 seaborn
 ```
 
+### Compression
+
+All data is compressed with [zstd](https://github.com/facebook/zstd), make sure it is installed on your system. `Pandas` should recognise `*.csv.zst` files as such and decompress them automatically.
+
+
+
 # How to Reproduce
 
 ### Init Data

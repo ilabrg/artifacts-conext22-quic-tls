@@ -28,7 +28,7 @@ This repository is structured as follows:
 Clone this repository, then:
 
 1. Make sure you have Jupyter Notebooks and Python installed.
-1. Check the Python [requirements](https://github.com/ilabrg/artifacts-conext22-quic-tls/tree/main/code#requirements).
+1. Double-check the Python [requirements](https://github.com/ilabrg/artifacts-conext22-quic-tls/tree/main/code#requirements) and [zstd](https://github.com/facebook/zstd).
 1. Prepare the analysis by running the initial notebook [01-Prepare-Dataframes.ipynb](https://github.com/ilabrg/artifacts-conext22-quic-tls/blob/main/code/01-Prepare-Dataframes.ipynb) once.
 1. Run all the other notebooks in arbitrary order, *i.e.,* from [02-Section-4.1-Classify-Handshakes.ipynb](https://github.com/ilabrg/artifacts-conext22-quic-tls/blob/main/code/02-Section-4.1-Classify-Handshakes.ipynb) up to [08-Addendum-Rescan-Confirm-CertReuse.ipynb](https://github.com/ilabrg/artifacts-conext22-quic-tls/blob/main/code/08-Addendum-Rescan-Confirm-CertReuse.ipynb). If RAM is limited, remember to shutdown notebook kernels after you are done with a notebook.
 1. Find all results in `./code/plots/`, located [here](https://github.com/ilabrg/artifacts-conext22-quic-tls/tree/main/code/plots) or directly in the notebooks.
