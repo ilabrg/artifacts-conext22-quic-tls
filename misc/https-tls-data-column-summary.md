@@ -1,0 +1,34 @@
+# Column summary
+
+- `host`: host (domain) name from which the leaf certificate was retrieved
+- `type`: type of certificate in trust chain (`ROOT`: self-signed certificate, `INT`: intermediate CA certificate, `LEAF`: leaf certificate)
+- `d`: depth in certificate chain
+- `dt`: total depth of certificate chain
+- `certsize`: total certificate size (in bytes)
+- `tbssize`: size of to-be-signed certificate (w/o signature and signature info)
+- `subjcn`: subject common name
+- `subjhash`: hash of subject name
+- `subjk`: Subject Key Identifier (see [RFC 5280 4.2.1.2](https://www.rfc-editor.org/rfc/rfc5280#section-4.2.1.2))
+- `subjsize`: size of subject segment
+- `isscn`: issuer common name
+- `isshash`: hash of issuer name
+- `issk`: Authority Key Identifier (see [RFC 5280 4.2.1.1](https://www.rfc-editor.org/rfc/rfc5280#section-4.2.1.2))
+- `isssize`: size of issuer segment
+- `keyalg`: public key algorithm
+- `keybits`: size of public key (in bits)
+- `pubkinfosize`: size of public key info segment
+- `nby`: certificate validity as not before (year)
+- `nbts`: certificate validity as not before (unix timestamp)
+- `nay`: certificate validity as not after (year)
+- `nats`: certificate validity as not after (unix timestamp)
+- `sancount`: total count of subject alternative names (SAN)
+- `sansize` size of SAN segment
+- `sctcount`: total count of Signed Certificate Timestamps (SCT)
+- `sctsize`: size of SCTs segment
+- `extssize`: size of all certificate extensions
+- `sigalg`: signature algorithm
+- `sigsize`: signature size
+- `validation`: certificate validation type (`DV`: domain validation, `OV`: organization validation, `EV`: extended validation)
+- `precert`: `true` if precertificate, `false` otherwise (only relevant if certificate is fetched over CT logs)
+- `ca`: `true` if CA certificate
+- `hash`: certificate fingerpring
