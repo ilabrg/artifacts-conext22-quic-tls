@@ -5,9 +5,10 @@
 This repository contains the artifacts for the following paper:
 
     On the Interplay between TLS Certificates and QUIC Performance
-    (authors anon.)
-    CoNEXT ’22, December 6–9, 2022, Rome, Italy
-    https://todo
+    M. Nawrocki, P. F. Tehrani, R. Hiesgen, J. Mücke,  T. C. Schmidt, and M. Wählisch
+    In Proceedings of CoNEXT ’22, December 6–9, 2022, Rome, Italy
+    ACM, New York, NY, USA, 10 pages
+    https://doi.org/10.1145/3555050.3569123
 
 
 
